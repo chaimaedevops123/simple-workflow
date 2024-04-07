@@ -6,11 +6,11 @@ on: [push]
 jobs:
 
     run-shell-commands:
-      runs-on: ubunto-latest
+      runs-on: ubuntu-latest
       steps:
         - name: string
           run: echo"welcom to devopshint"
-        - name: multime script
+        - name: multiline script
           run: |
           node -v
           npm -v 
