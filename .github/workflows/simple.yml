@@ -12,7 +12,7 @@ jobs:
           run: echo"welcom to devopshint"
         - name: multiline script
           run: |
-          node -v
-          npm -v 
+           node -v
+           npm -v 
 
     
