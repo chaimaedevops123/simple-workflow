@@ -1,18 +1,18 @@
+
 name: shell commands 
 
 on: [push]
   
 
 jobs:
-
-    run-shell-commands:
-      runs-on: ubuntu-latest
-      steps:
-        - name: string
-          run: echo"welcom to devopshint"
-        - name: multiline script
-          run: |
-           node -v
-           npm -v 
+  run-shell-commands:
+    runs-on: ubuntu-latest
+    steps:
+      - name: string
+        run: echo "welcom to devopshint"  
+      - name: multiline script
+        run: |
+          node -v
+          npm -v
 
     
